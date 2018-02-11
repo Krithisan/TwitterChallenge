@@ -16,4 +16,5 @@
 <fullyQualifiedTypeName name="twitter4j.URLEntity"/>
 <fullyQualifiedTypeName name="javax.crypto.EncryptedPrivateKeyInfo"/>
 <fullyQualifiedTypeName name="feedreader.TweetReaderServlet"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

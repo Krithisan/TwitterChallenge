@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="FeedReaderTest" project="feedreader" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="feedreader.FeedReaderTest" time="0.053">
-    <testcase name="testparse" classname="feedreader.FeedReaderTest" time="0.053"/>
-    <testcase name="testReplaceLinks" classname="feedreader.FeedReaderTest" time="0.0"/>
-  </testsuite>
-</testrun>
