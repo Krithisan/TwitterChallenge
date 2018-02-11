@@ -1,0 +1,43 @@
+package feedreader;
+
+import static org.junit.Assert.assertNotEquals;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import feedreader.TweetReaderServlet;
+
+import junit.framework.TestCase;
+
+public class FeedReaderTest extends TestCase {
+
+	@Before
+	protected void setUp() throws Exception {
+		super.setUp();
+	}
+
+	@After
+	protected void tearDown() throws Exception {
+		super.tearDown();
+	}
+
+	@Test
+	public void testparse() {
+		String expected = "checking <a href=https: target='_blank'>https:</a> and <a href=http: target='_blank'>http:</a>";
+		String actual = TweetReaderServlet.parseTweet("checking https: and http:");
+		assertEquals(expected, actual);
+		
+		String unexpected = "checking the change of hashtags <a href='https://twitter.com/hashtag/#this?src=hash'>#this</a>";
+		expected = "checking the change of hashtags <a href='https://twitter.com/hashtag/this?src=hash'>#this</a>";
+		actual = TweetReaderServlet.parseTweet("checking the change of hashtags #this");
+		assertNotEquals(unexpected, actual);
+		assertEquals(expected, actual);
+	}
+	
+	public void testReplaceLinks() {
+		String expected = "<a href=does this get relaced target='_blank'>does this get relaced</a>";
+		String actual = TweetReaderServlet.replaceLinks("does this get relaced");
+		assertEquals(expected, actual);
+	}
+
+}

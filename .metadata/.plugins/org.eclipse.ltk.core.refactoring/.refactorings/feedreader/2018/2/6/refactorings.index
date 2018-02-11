@@ -1,0 +1,6 @@
+1518272491317	Move 'slds' to 'WEB-INF'
+1518274708872	Move 'twitter-logo.png' to 'assets'
+1518292781953	Encapsulate field 'tweetImages'
+1518294959810	Move 'retweet.png' to 'assets'
+1518295560101	Move 'retweet.svg' to 'icons'
+1518295565009	Move 'retweet.svg' to 'custom'
