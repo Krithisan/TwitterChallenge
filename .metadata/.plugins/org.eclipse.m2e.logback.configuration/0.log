@@ -2564,3 +2564,29 @@
 2018-02-11 10:36:20,911 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2018-02-11 10:36:20,913 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-02-11 10:36:20,914 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Saranya\git\TwitterFeedReader\feedreader\src\test\resources
+2018-02-11 11:53:58,661 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.jar
+2018-02-11 11:53:58,914 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.jar
+2018-02-11 11:54:00,337 [Worker-61] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.apache.maven:feedreader:0.0.1-SNAPSHOT @ C:\Users\Saranya\git\TwitterFeedReader\feedreader\pom.xml.
+2018-02-11 11:54:00,642 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.pom
+2018-02-11 11:54:00,723 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/3.0.2/maven-dependency-plugin-3.0.2.pom
+2018-02-11 11:54:00,762 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+2018-02-11 11:54:00,808 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/30/maven-plugins-30.pom
+2018-02-11 11:54:00,870 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom
+2018-02-11 11:54:00,923 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/30/maven-parent-30.pom
+2018-02-11 11:54:00,995 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom
+2018-02-11 11:54:01,037 [Worker-61] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/apache/18/apache-18.pom
+2018-02-11 11:54:01,639 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-11 11:54:01,642 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-11 11:54:01,643 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-11 11:54:01,644 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Saranya\git\TwitterFeedReader\feedreader\src\test\resources
+2018-02-11 11:54:01,645 [Worker-61] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of feedreader
+2018-02-11 11:54:01,645 [Worker-61] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for feedreader
+2018-02-11 11:54:01,649 [Worker-61] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-11 11:55:53,280 [Worker-73] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: org.apache.maven:feedreader:0.0.1-SNAPSHOT @ C:\Users\Saranya\git\TwitterFeedReader\feedreader\pom.xml.
+2018-02-11 11:55:53,865 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-11 11:55:53,867 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-11 11:55:53,869 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-11 11:55:53,870 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Saranya\git\TwitterFeedReader\feedreader\src\test\resources
+2018-02-11 11:55:53,871 [Worker-73] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of feedreader
+2018-02-11 11:55:53,871 [Worker-73] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for feedreader
+2018-02-11 11:55:53,875 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
