@@ -2603,3 +2603,7 @@
 2018-02-11 14:32:57,155 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2018-02-11 14:32:57,164 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-02-11 14:32:57,165 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Saranya\git\TwitterFeedReader\feedreader\src\test\resources
+2018-02-11 15:31:38,182 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-11 15:31:38,215 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-11 15:31:38,220 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-02-11 15:31:38,221 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Saranya\git\TwitterFeedReader\feedreader\src\test\resources
