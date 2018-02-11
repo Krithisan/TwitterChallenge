@@ -1,2 +1,7 @@
 127.0.0.1 - - [11/Feb/2018:16:25:33 -0500] "GET / HTTP/1.1" 404 951
 0:0:0:0:0:0:0:1 - - [11/Feb/2018:16:27:16 -0500] "GET /feedreader/ HTTP/1.1" 200 2239
+127.0.0.1 - - [11/Feb/2018:16:42:49 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [11/Feb/2018:16:43:05 -0500] "GET /feedreader/ HTTP/1.1" 200 2239
+0:0:0:0:0:0:0:1 - - [11/Feb/2018:16:43:08 -0500] "POST /feedreader/TweetReaderServlet HTTP/1.1" 200 15778
+0:0:0:0:0:0:0:1 - - [11/Feb/2018:16:43:09 -0500] "GET /feedreader/slds/assets/retweet.png HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Feb/2018:16:43:12 -0500] "POST /feedreader/TweetReaderServlet HTTP/1.1" 200 2797
