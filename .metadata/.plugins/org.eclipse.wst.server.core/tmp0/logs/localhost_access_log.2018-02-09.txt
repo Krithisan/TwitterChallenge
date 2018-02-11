@@ -1,6 +1,0 @@
-127.0.0.1 - - [09/Feb/2018:22:51:49 -0500] "GET / HTTP/1.1" 404 951
-0:0:0:0:0:0:0:1 - - [09/Feb/2018:22:52:19 -0500] "GET /feedreader/index.jsp HTTP/1.1" 200 57
-127.0.0.1 - - [09/Feb/2018:22:55:22 -0500] "GET / HTTP/1.1" 404 951
-0:0:0:0:0:0:0:1 - - [09/Feb/2018:22:55:45 -0500] "GET /feedreader/salesforceTweets.jsp HTTP/1.1" 200 305
-0:0:0:0:0:0:0:1 - - [09/Feb/2018:22:58:00 -0500] "GET /feedreader/salesforceTweets.jsp HTTP/1.1" 200 551
-0:0:0:0:0:0:0:1 - - [09/Feb/2018:22:58:00 -0500] "GET /resources/slds/assets/styles/salesforce-lightning-design-system.css HTTP/1.1" 404 1085
