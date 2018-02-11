@@ -40,6 +40,7 @@
   <build>
     <finalName>feedreader</finalName>
     <plugins>
+<<<<<<< HEAD
 	<plugin>
     <artifactId>maven-war-plugin</artifactId>
     <version>2.4</version>
@@ -47,6 +48,8 @@
         <failOnMissingWebXml>false</failOnMissingWebXml>
     </configuration>
 	</plugin>
+=======
+>>>>>>> 6b2342e2c515b7ebf55b23a6d745cd558654486f
     <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
