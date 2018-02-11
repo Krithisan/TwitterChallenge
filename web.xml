@@ -88,8 +88,8 @@
   <!--                                                                      -->
   <!--                                                                      -->
 <servlet>
-        <servlet-name>default</servlet-name>
-        <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
+        <servlet-name>TweetReaderServer</servlet-name>
+        <servlet-class>feedreader.TweetReaderServlet</servlet-class>
         <init-param>
             <param-name>debug</param-name>
             <param-value>0</param-value>
@@ -341,8 +341,8 @@
     <!-- The mapping for the default servlet -->
     	
 	<servlet-mapping>
-        <servlet-name>default</servlet-name>
-        <url-pattern>/</url-pattern>
+        <servlet-name>TweetReaderServlet</servlet-name>
+        <url-pattern>/TweetReaderServlet</url-pattern>
     </servlet-mapping>
 
     <!-- The mapping for the SSI servlet -->
